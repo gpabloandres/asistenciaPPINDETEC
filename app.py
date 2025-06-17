@@ -259,7 +259,7 @@ def main():
     st.markdown("Prácticas Profesionalizantes INDETEC - Colegio Técnico Antonio Martín Marte")
 
     if 'current_monday' not in st.session_state:
-        st.session_state.current_monday = datetime.date(2025, 6, 5) 
+        st.session_state.current_monday = datetime.date(2025, 5, 26) 
 
     nav_cols = st.columns([1, 2, 1])
     with nav_cols[0]:
